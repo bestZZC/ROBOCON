@@ -1,0 +1,6 @@
+objcopy.exe --update-section ER_IROM1="c:\Users\New_user\Desktop\code 6.19\robocon_code\MDK-ARM\build\robocon\MDK-ARM.bin" "c:\Users\New_user\Desktop\code 6.19\robocon_code\MDK-ARM\build\robocon\MDK-ARM.axf" "c:\Users\New_user\Desktop\code 6.19\robocon_code\MDK-ARM\build\robocon\MDK-ARM.elf"
+
+objcopy.exe: c:\Users\New_user\Desktop\code 6.19\robocon_code\MDK-ARM\build\robocon\MDK-ARM.elf: warning: allocated section `RW_IRAM1' not in segment
+
+WARNING: The runtime version supported by this application is unavailable.
+Using default runtime: v4.0.30319
