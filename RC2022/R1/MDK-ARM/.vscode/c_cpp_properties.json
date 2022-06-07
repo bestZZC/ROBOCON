@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                ".\\..\\Inc",
+                ".\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
+                ".\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
+                ".\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
+                ".\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                ".\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
+                ".\\..\\Drivers\\CMSIS\\Include",
+                ".\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
+                ".\\bsp",
+                ".",
+                ".\\.eide\\deps",
+                ".\\..\\..\\..\\..\\..\\..\\my keil\\ARM\\ARMCC\\include",
+                ".\\..\\..\\..\\..\\..\\..\\my keil\\ARM\\ARMCC\\include\\rw"
+            ],
+            "defines": [
+                "${default}",
+                "__VSCODE_CPPTOOL",
+                "USE_HAL_DRIVER",
+                "STM32F427xx"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                ".\\..\\..\\..\\..\\.vscode\\extensions\\cl.eide-2.10.0\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}

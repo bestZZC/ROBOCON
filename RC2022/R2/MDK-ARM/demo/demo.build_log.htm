@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ÂµVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: kds bai, wl, LIC=X1EY8-3VV0W-VIG5N-Y3R7C-8NH0D-K5AKA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\keil\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\CubeMx Code\R1\MDK-ARM\robocon.uvprojx
+Project File Date:  05/23/2022
+
+<h2>Output:</h2>
+Build target 'robocon'
+compiling moter.c...
+moter.c(65): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          Point[i][0]=z*L*cos((DelaYaw+ZeroThea[i])/RadToRog)+x;
+moter.c(66): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          Point[i][1]=-z*L*sin((DelaYaw+ZeroThea[i])/RadToRog)+y;
+moter.c(340): warning:  #550-D: variable "tan_rpm" was set but never used
+      float tan_rpm;
+moter.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=37924 RO-data=1348 RW-data=296 ZI-data=24600  
+FromELF: creating hex file...
+"demo\demo.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\CubeMx Code\R1\MDK-ARM\RTE
+  D:\keil\keil5\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\keil\keil5\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
