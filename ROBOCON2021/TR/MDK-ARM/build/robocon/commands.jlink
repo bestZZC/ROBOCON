@@ -1,0 +1,6 @@
+r
+halt
+loadfile "d:\cubemx code\robocon_code\MDK-ARM\build\robocon\MDK-ARM.hex"
+r
+go
+exit
